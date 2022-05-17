@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertidor</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h2>Convertidor de Unidades</h2>
+        <div class="fila">
+            <span> Peso / Weight </span>
+            <br>
+            <select name="unidad_peso" id="unidad_peso">
+                <option value="gramos">Gramos / Grams</option>
+                <option value="libras">Libras / Pounds</option>
+            </select>
+            <br>
+            <span> Producto / Item </span>
+            <br>
+            <select name="producto" id="producto">
+                <option value="regular_filets">Regular Filets</option>
+                <option value="grilled_filets">Grilled Filets</option>
+                <option value="spicy_filets">Spicy Filets</option>
+                <option value="strips">Strips / Tenders</option>
+                <option value="nuggets">Nuggets</option>
+                <option value="grilled_nuggets">Grilled Nuggets</option>
+                <option value="breakfast_filets">Breakfast Filets</option>
+                <option value="spicy_breakfast_filets">Spicy Breakfast Filets</option>
+            </select>
+
+        </div>
+        <input type="text" id="peso" placeholder="Peso">
+        <div class="resultado" id="resultado">
+            
+
+        </div>
+        <script src="script.js"></script>
+
+    </div>
+</body>
+</html>
